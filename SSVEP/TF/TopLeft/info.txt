@@ -4,4 +4,4 @@ Subject: TF
 Time between trials: 30 seconds.
 Buffer Size: 1001
 
-Notes: 
+Notes: Tripled frequencies pygame

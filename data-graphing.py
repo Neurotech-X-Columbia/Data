@@ -8,10 +8,10 @@ import os
 from scipy.signal import butter, lfilter, find_peaks
 
 
-path = "/Users/siddhant/Documents/Neurotech-X-Drone/Data/SSVEP/"
+path = r"C:\Users\mathe\PycharmProjects\NeuroData\SSVEP\\"
 # You can add more subjects to the list
-subjects = ['GG/']#, 'JP/', 'MC/'] # GB doesn't have anything, NG only has TopLeft
-stimuli = ['BottomLeft/', 'BottomMiddle/', 'BottomRight/','TopLeft/','TopRight/']
+subjects = ['GG\\']#, 'JP/', 'MC/'] # GB doesn't have anything, NG only has TopLeft
+stimuli = ['BottomLeft/', 'BottomMiddle/', 'BottomRight/', 'TopLeft/', 'TopRight/']
 
 all_paths = [path + sub + stim for sub in subjects for stim in stimuli]
 
@@ -45,7 +45,7 @@ for fp in all_files:
     #n_channels = 16
     # manually selecting important channels near occipital lobe
     imp_channels = [4,5,6,7,14,15] # 0-indexed: Ch 5,6,7,8,15,16
-    tok = fp.split('/')
+    tok = fp.split('\\')
 
     for i in imp_channels:
         s = list(df.loc[i,:])[1:376]
