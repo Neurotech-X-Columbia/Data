@@ -1,0 +1,8 @@
+Session: 5 trials of 64.0 seconds each.
+Stimulation frequency: TopRight
+Subject: KK
+Time between trials: 30 seconds.
+Buffer Size: 1001
+
+Notes: electrode 16 not working; new frequencies 
+10-23-22
