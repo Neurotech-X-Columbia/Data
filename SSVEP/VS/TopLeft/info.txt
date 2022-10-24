@@ -1,0 +1,8 @@
+Session: 5 trials of 64.0 seconds each.
+Stimulation frequency: TopRight
+Subject: VS
+Time between trials: 30 seconds.
+Buffer Size: 1001
+
+Notes: top left; electrode 16 not working; new Unity GUI; 8/10/15/18/22 Hz; windowless room with lights off
+10-24-22
