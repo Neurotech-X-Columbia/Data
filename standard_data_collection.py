@@ -42,10 +42,10 @@ srate = 125  # 125 for Cyton/Daisy; 250 for Cyton only
 channels = 16
 
 # Meta Information
-subj = "KK"
-stim_freq = "BottomMiddle"
-date = "10-23-22"
-notes = f"electrode 16 not working; new frequencies; new Unity GUI \n{date}"  # miscellaneous info about collection conditions
+subj = "VS"
+stim_freq = "BottomRight"
+date = "10-24-22"
+notes = f"bottom right; electrode 16 not working; new Unity GUI; 8/10/15/18/22 Hz\n{date}"  # miscellaneous info about collection conditions
 storage_dir = f"{os.getcwd()}\\SSVEP\\{subj}\\{stim_freq}"  # directory where trial files are stored
 chan_names = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve',
               'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen']
