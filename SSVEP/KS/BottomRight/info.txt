@@ -1,0 +1,8 @@
+Session: 5 trials of 64.0 seconds each.
+Stimulation frequency: BottomRight
+Subject: KS
+Time between trials: 30 seconds.
+Buffer Size: 1001
+
+Notes: bottom right; electrode 16 not working; new Unity GUI; 8/10/15/18/22 Hz
+10-25-22
