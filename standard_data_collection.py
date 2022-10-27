@@ -37,15 +37,15 @@ class Timer(Thread):
 samples = 8000  # number of samples to capture in one trial (3750 = 30 seconds)
 total_trials = 5  # number of complete trials (sets of data) generated for this session
 buffer_size = 1001  # 1000 = 8 seconds stored in the buffer at once (buffer is actually one less than this value)
-break_time = 30  # time between trials in seconds
+break_time = 20  # time between trials in seconds
 srate = 125  # 125 for Cyton/Daisy; 250 for Cyton only
 channels = 16
 
 # Meta Information
-subj = "KS"
-stim_freq = "BottomLeft"
-date = "10-25-22"
-notes = f"bottom left; electrode 16 not working; new Unity GUI; 8/10/15/18/22 Hz\n{date}; room lighting ambient"
+subj = "MC2"
+stim_freq = "BottomRight"
+date = "10-27-22"
+notes = f"bottom right (22); electrode 16 not working; new Unity GUI; 8/10/15/18/22 Hz\n{date}; room lighting dark"
 storage_dir = f"{os.getcwd()}\\SSVEP\\{subj}\\{stim_freq}"  # directory where trial files are stored
 chan_names = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve',
               'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen']
@@ -119,7 +119,7 @@ for x in range(total_trials):
     timer.end()
     pd.DataFrame(raw_data).to_csv(filename)
 
-    if trial_count < total_trials:
+    if trial_count < total_trials and break_time:
         print(f"Trial {trial_count} complete. Starting next trial in {break_time} seconds.\n")
         sleep(break_time-10)
         print("10 seconds until next trial.\n")
