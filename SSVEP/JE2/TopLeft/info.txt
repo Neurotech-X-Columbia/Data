@@ -1,0 +1,8 @@
+Session: 5 trials of 64.0 seconds each.
+Stimulation frequency: TopLeft
+Subject: JE2
+Time between trials: 20 seconds.
+Buffer Size: 1001
+
+Notes: top left (8); electrode 16 not working; new Unity GUI; 8/10/15/18/22 Hz
+10-27-22; room lighting dark
