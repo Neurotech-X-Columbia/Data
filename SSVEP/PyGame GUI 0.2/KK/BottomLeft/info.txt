@@ -4,5 +4,5 @@ Subject: KK
 Time between trials: 30 seconds.
 Buffer Size: 1001
 
-Notes: electrode 16 not working; new frequencies 
+Notes: electrode 16 not working; new pygame frequencies
 10-23-22
