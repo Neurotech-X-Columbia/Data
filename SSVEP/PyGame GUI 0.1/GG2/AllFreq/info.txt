@@ -1,0 +1,8 @@
+Session: 5 trials of 64.0 seconds each.
+Stimulation frequency: AllFreq
+Subject: GG2
+Time between trials: 15 seconds.
+Buffer Size: 1001
+
+Notes: 64sec per freq; very first UI; 6.6/7.5/8.571/7.059/8 Hz
+10-30-22; room lighting medium-dark

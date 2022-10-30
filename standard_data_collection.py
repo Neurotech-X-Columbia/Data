@@ -37,15 +37,15 @@ class Timer(Thread):
 samples = 8000  # number of samples to capture in one trial (3750 = 30 seconds)
 total_trials = 5  # number of complete trials (sets of data) generated for this session
 buffer_size = 1001  # 1000 = 8 seconds stored in the buffer at once (buffer is actually one less than this value)
-break_time = 5  # time between trials in seconds
+break_time = 15  # time between trials in seconds
 srate = 125  # 125 for Cyton/Daisy; 250 for Cyton only
 channels = 16
 
 # Meta Information
-subj = "JE2"
-stim_freq = "BottomRight"
-date = "10-27-22"
-notes = f"top left (8); electrode 16 not working; new Unity GUI; 8/10/15/18/22 Hz\n{date}; room lighting dark"
+subj = "GG2"
+stim_freq = "AllFreq"
+date = "10-30-22"
+notes = f"64sec per freq; very first UI; 6.6/7.5/8.571/7.059/8 Hz\n{date}; room lighting medium-dark"
 storage_dir = f"{os.getcwd()}\\SSVEP\\{subj}\\{stim_freq}"  # directory where trial files are stored
 chan_names = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve',
               'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen']
