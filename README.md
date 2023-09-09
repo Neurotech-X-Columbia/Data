@@ -1,2 +1,2 @@
-# Data
-Data Repository for all projects belonging to Neurotech X Columbia
+# Legacy Data Repo
+This is a deprecated repo for NeurotechXColumbia. The active repo is called NeuroData.
